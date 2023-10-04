@@ -1,0 +1,67 @@
+deleted code
+
+	const testUpload = () => {
+		setUploading(true);
+		setTimeout(() => {
+			setUploading(false);
+		}, 6000);
+	};
+
+// useEffect(() => {
+// 	axios
+// 		.get("http://localhost:8000/api/v1/admin/get-all-media")
+// 		.then((response) => {
+// 			setMedia(response.data.allMedia);
+// 			console.log(media);
+// 		});
+// }, []);
+
+/* <form onSubmit={submit}>
+				<input
+					onChange={fileSelected}
+					type="file"
+					name="file"
+					accept="video/*"
+				></input>
+				<input
+					value={description}
+					onChange={(e) => setDescription(e.target.value)}
+					type="text"
+				></input>
+				<button type="submit">Submit</button>
+			</form> */
+
+// const submit = async (event) => {
+// 	event.preventDefault();
+// 	const result = await postImage({ image: file, description });
+// 	setImages([result.image, ...images]);
+// };
+
+// const fileSelected = (event) => {
+// 	const file = event.target.files[0];
+// 	setFile(file);
+// };
+
+// const initialValues = {
+// 	title: "",
+// 	thumbnail: null,
+// 	mediaFile: null,
+// 	description: "",
+// 	playlist: "",
+// };
+
+// async function postImage({ image, description }) {
+// 	const formData = new FormData();
+// 	formData.append("upload", image);
+// formData.append("description", description);
+
+// 	const result = await axios.post(
+// 		"http://localhost:8000/api/v1/admin/upload-media",
+// 		formData,
+// 		{
+// 			headers: { "Content-Type": "multipart/form-data" },
+// 		}
+// 	);
+// 	console.log(result.data);
+// 	return result.data;
+// }

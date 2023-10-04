@@ -1,0 +1,17 @@
+.playlistComponent {
+	max-height: 500px;
+}
+
+.playlistComponent__playlistName {
+	font-size: 24px;
+	margin-bottom: 2rem;
+	color: #8e8d8d;
+}
+
+.playlistComponent__cardHolder {
+	display: flex;
+	gap: 2rem;
+	overflow-x: auto;
+	overflow-y: hidden;
+	max-height: 500px;
+}

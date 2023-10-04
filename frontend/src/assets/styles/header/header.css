@@ -1,0 +1,28 @@
+.header {
+	height: 7vh;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	gap: 2rem;
+	padding: 0 2rem;
+}
+
+.header__imageContainer {
+	display: flex;
+	align-items: center;
+	height: 70%;
+}
+
+.header__menuImage {
+	display: block;
+	height: 100%;
+}
+
+.header__navbar {
+	width: 100%;
+}
+
+.header__profileImage {
+	display: block;
+	height: 100%;
+}

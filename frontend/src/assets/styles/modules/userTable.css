@@ -1,0 +1,22 @@
+.tableContainer {
+	margin: 3rem;
+}
+
+.mainTable {
+	width: 100%;
+}
+
+.mainTable__tableHeaderContainer {
+	background-color: aliceblue;
+}
+
+.mainTable__tableHeader {
+	text-align: left;
+	padding: 0.5rem 0;
+}
+
+.tableButton {
+	outline: 1px solid rgb(180, 180, 180);
+	padding: 0.5rem 1rem;
+	background-color: white;
+}

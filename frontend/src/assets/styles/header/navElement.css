@@ -1,0 +1,10 @@
+.navbar__li {
+	padding: 0.4rem 1.25rem;
+}
+
+.navlink__nav {
+	font-size: 18px;
+	text-decoration: none;
+	color: black;
+	cursor: pointer;
+}
